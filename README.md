@@ -5,6 +5,15 @@ Horizontal Scrolling Carousel Parallax Slider
 > Platform References
 - [Conor Bailey](https://www.youtube.com/watch?v=z-oexYPY9GY&t=8s)
 
+# References Web Docs
+> Documentation
+- [getBoundingClientRect](https://developer.mozilla.org/es/docs/Web/API/Element/getBoundingClientRect)
+- devuelve el tamaño de un elemento y su posición relativa respecto a la ventana de visualización (viewport).
+- [SetTransform](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform)
+- [getContext](https://developer.mozilla.org/es/docs/Web/API/HTMLCanvasElement/getContext)
+- [parseFloat](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+- [toFixed](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+- [window.innerHeight](https://developer.mozilla.org/es/docs/Web/API/Window/innerHeight)
 # MIT License 
 
 > License
@@ -13,6 +22,7 @@ Horizontal Scrolling Carousel Parallax Slider
 - [Licenses Software](https://www.youtube.com/watch?v=eWtjgfzpt6Y)
 - [Wikipedia-License Software](https://es.wikipedia.org/wiki/Licencia_de_software)
 - [Copyright](https://es.wikipedia.org/wiki/Derecho_de_autor)
+- [Disclaimers](https://traduccionjuridica.es/los-disclaimers/)
 
 Copyright (c) 2021 Chris_Velázquez04
 
