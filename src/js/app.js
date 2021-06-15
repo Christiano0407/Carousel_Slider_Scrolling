@@ -1,0 +1,1 @@
+let image = [...document.querySelectorAll(`.image`)]; 
