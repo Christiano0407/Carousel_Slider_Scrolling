@@ -1,0 +1,25 @@
+{
+  "name": "slider_scrolling",
+  "version": "1.0.0",
+  "description": "Project Vanilla Javascript / Parallax Scrolling",
+  "main": "src/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Carousel_Slider_Scrolling.git"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla",
+    "scroll",
+    "parallax"
+  ],
+  "author": "Chris_Velazquez / Chris04.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Carousel_Slider_Scrolling/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Carousel_Slider_Scrolling#readme"
+}
