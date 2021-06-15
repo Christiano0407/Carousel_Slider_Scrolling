@@ -83,7 +83,7 @@ main {
     overflow: hidden;
 }
 
-.image {
+.img {
     position: absolute;
     left: -100px;
     width: 600px;
