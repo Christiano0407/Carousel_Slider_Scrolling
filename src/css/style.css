@@ -1,0 +1,48 @@
+:root {
+            /* === Color === */
+    --clr-white: #ffffff; 
+    --clr-black: #000000; 
+
+            /* ==Fonts/sizes== */
+    --font-style: 'Montserrat', sans-serif;
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-tall: 1.8rem; 
+    --font-size-title: 2.4rem; 
+
+    --headLine1: bold 95px/153.71px var(--fontBase); 
+    --headLine2: bold 59px/95px var(--fontBase); 
+    --headLine3: bold 48px/77px var(--fontBase); 
+    --headLine4: bold 34px/55px var(--fontBase); 
+    --headLine5: bold 24px/38px var(--fontBase); 
+    --body1:  16px/25px var(--fontBase); 
+    --body2:  14px/22px var(--fontBase); 
+    --button: bold 14px/22px var(--fontTwo); 
+    --caption:  12px/19px var(--fontTwo); 
+}
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: var(--font-style)
+}
