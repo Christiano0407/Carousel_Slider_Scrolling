@@ -14,6 +14,7 @@ Horizontal Scrolling Carousel Parallax Slider
 - [parseFloat](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [toFixed](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 - [window.innerHeight](https://developer.mozilla.org/es/docs/Web/API/Window/innerHeight)
+- [Overflow-CSS](https://developer.mozilla.org/es/docs/Web/CSS/overflow)
 
 # Tips UX / UI / Design System
 - [Booklets](https://www.booklets.io/c/graphic-design)
