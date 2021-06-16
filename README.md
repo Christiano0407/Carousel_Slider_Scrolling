@@ -14,6 +14,15 @@ Horizontal Scrolling Carousel Parallax Slider
 - [parseFloat](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [toFixed](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 - [window.innerHeight](https://developer.mozilla.org/es/docs/Web/API/Window/innerHeight)
+
+# Tips UX / UI / Design System
+- [Booklets](https://www.booklets.io/c/graphic-design)
+- [Material Design](https://material.io/)
+# Media Queries
+> Break Pointes
+- [MyDevice](https://www.mydevice.io/#compare-devices)
+- [ViewportSize](https://viewportsizes.com/)
+- [ScreenSize](https://screensiz.es/)
 # MIT License 
 
 > License

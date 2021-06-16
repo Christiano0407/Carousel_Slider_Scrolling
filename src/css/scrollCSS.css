@@ -40,6 +40,9 @@ img {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    width: 400px;
+    height: 600px;
 }
 
 body {
