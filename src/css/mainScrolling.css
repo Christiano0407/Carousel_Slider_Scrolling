@@ -24,4 +24,45 @@ img {
     object-fit: cover;
 }
 
+.slider-wrap {
+    position: fixed;
+    overflow: hidden;
 
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+
+    border: 2px solid red;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4000px;
+
+    display: flex;
+    will-change: transform;
+    background-color: #000;
+    /* border: 2px solid green; */
+}
+
+.slider-item {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+.img-div {
+    position: relative;
+    left: 1%;
+    top: 2.5%;
+    width: 98%;
+    height: 95%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
