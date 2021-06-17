@@ -15,7 +15,11 @@ Horizontal Scrolling Carousel Parallax Slider
 - [toFixed](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 - [window.innerHeight](https://developer.mozilla.org/es/docs/Web/API/Window/innerHeight)
 - [Overflow-CSS](https://developer.mozilla.org/es/docs/Web/CSS/overflow)
-
+- [cloneNode_js](https://developer.mozilla.org/es/docs/Web/API/Node/cloneNode)
+- El método Node.cloneNode() devuelve un duplicado del nodo en el que este método fue llamado.
+- [getCloneWidth](https://stackoverflow.com/questions/67914159/i-have-2-image-sliders-on-one-page-using-the-same-code-but-only-1-works)
+- [offsetWidth](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/offsetWidth)
+- La propiedad de solo lectura HTMLElement.offsetWidth  devuelve el ancho del layout del elemento. Esta medida incluye los bordes del elemento asignados al mismo en los estilos CSS.
 # Tips UX / UI / Design System
 - [Booklets](https://www.booklets.io/c/graphic-design)
 - [Material Design](https://material.io/)
