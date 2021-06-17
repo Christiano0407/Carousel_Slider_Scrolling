@@ -9,6 +9,8 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
+
+    overscroll-behavior-y: none;
 }
 ul {
     list-style: none;

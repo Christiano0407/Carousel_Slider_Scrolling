@@ -54,6 +54,8 @@ function scrollUpdate() {
 function onLoad() {
     calculateDimensions(); 
     document.body.style.height = `${sliderWidth}px` 
+    window.scrollTo({top: 1}); 
+    scrollUpdate(); 
 }
 
 function calculateDimensions() {
