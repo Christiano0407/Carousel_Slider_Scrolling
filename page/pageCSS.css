@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+ font-size: 62.5%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+   /*  background: #000 url() no-repeat cover center; */
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
+   background-repeat: no-repeat;
+}
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    scroll-snap-align: start;
+}
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+.one {
+    background-image: url(../src/assets/image/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.two {
+   /*  background-color: blueviolet; */
+   background-image: url(../src/assets/image/5.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+}
+.three {
+    background-color: springgreen;
+    background-image: url(../src/assets/image/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.four {
+    background-color: salmon;
+    background-image: url(../src/assets/image/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
