@@ -4,6 +4,7 @@ Horizontal Scrolling Carousel Parallax Slider
 # References
 > Platform References
 - [Conor Bailey](https://www.youtube.com/watch?v=z-oexYPY9GY&t=8s)
+- [Dev Ed](https://www.youtube.com/watch?v=htw4iKMYzEc&t=144s)
 
 # References Web Docs
 > Documentation
@@ -22,6 +23,18 @@ Horizontal Scrolling Carousel Parallax Slider
 - La propiedad de solo lectura HTMLElement.offsetWidth  devuelve el ancho del layout del elemento. Esta medida incluye los bordes del elemento asignados al mismo en los estilos CSS.
 - [ScrollTop](https://developer.mozilla.org/es/docs/Web/API/Element/scrollTop)
 - [Scroll](https://developer.mozilla.org/es/search?q=scroll)
+- [Scroll-Snap-Type](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type)
+
+> Overflow CSS
+- [Overflow-CSS](https://developer.mozilla.org/es/docs/Web/CSS/overflow)
+> Background CSS
+- [Background-attachment](https://developer.mozilla.org/es/docs/Web/CSS/background-attachment)
+- La propiedad CSS background-attachment determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.
+- [Background-color](https://developer.mozilla.org/es/docs/Web/CSS/background-color)
+- [Background-image](https://developer.mozilla.org/es/docs/Web/CSS/background-image)
+- [Background-position](https://developer.mozilla.org/es/docs/Web/CSS/background-position)
+- [Background-repeat](https://developer.mozilla.org/es/docs/Web/CSS/background-repeat)
+
 
 # Inspiration Website
 > Platform Design and Code
@@ -87,6 +100,9 @@ Horizontal Scrolling Carousel Parallax Slider
 - [editor.md](https://pandao.github.io/editor.md/index.html)
 - [readme.so](https://readme.so/es)
 
+# Articles Javascript
+- [Medium-10 Modern Javascript](https://betterprogramming.pub/10-modern-javascript-tricks-every-developer-should-use-377857311d79)
+- [Betterprogramming](https://betterprogramming.pub/)
 
 # MIT License 
 
