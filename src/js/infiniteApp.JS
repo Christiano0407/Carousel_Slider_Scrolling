@@ -31,3 +31,34 @@ function getCloneWidth() {
     })
     return width; 
 }
+
+function getScrollPos() {
+    return window.scrollY; 
+}
+
+/* function setScrollPos(pos) { */
+/*     window.scrollTo({top: pos});  */
+/* } */
+
+function scrollUpdate() {
+    scrollPos = getScrollPos(); 
+    if(clonesWidth + scrollPos >= sliderWidth) {
+        window.scrollTo({top: 1}); 
+    }else if(scrollPos <= 0) {
+        window.scrollTo({top: sliderWidth - clonesWidth -1})
+    }
+    slider.style.transform = `translateX(${-window.scrollY}px)`
+    requestAnimationFrame(scrollUpdate); 
+}
+
+function onLoad() {
+    calculateDimensions(); 
+    document.body.style.height = `${sliderWidth}px` 
+}
+
+function calculateDimensions() {
+    sliderWidth = slider.getBoundingClientRect().width; 
+    clonesWidth = getCloneWidth(); 
+}
+
+onLoad(); 
