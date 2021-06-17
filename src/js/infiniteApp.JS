@@ -41,15 +41,27 @@ function getScrollPos() {
 /* } */
 
 function scrollUpdate() {
-    scrollPos = getScrollPos(); 
-    if(clonesWidth + scrollPos >= sliderWidth) {
-        window.scrollTo({top: 1}); 
-    }else if(scrollPos <= 0) {
-        window.scrollTo({top: sliderWidth - clonesWidth -1})
+    
+    if(window.innerWidth > 760) {
+      sliderWrap.style.overflow = `hidden`; 
+      scrollPos = getScrollPos(); 
+
+      if(clonesWidth + scrollPos >= sliderWidth) {
+          window.scrollTo({top: 1}); 
+      }else if(scrollPos <= 0) {
+          window.scrollTo({top: sliderWidth - clonesWidth -1})
+      }
+      slider.style.transform = `translateX(${-window.scrollY}px)`
+      
+      requestAnimationFrame(scrollUpdate); 
+
+    }else {
+        sliderWrap.style.overflow = `scroll`; 
     }
-    slider.style.transform = `translateX(${-window.scrollY}px)`
-    requestAnimationFrame(scrollUpdate); 
+
 }
+
+window.addEventListener(`resize`, onload); 
 
 function onLoad() {
     calculateDimensions(); 

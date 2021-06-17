@@ -8,9 +8,12 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
+    background-color: #000;
 
     overscroll-behavior-y: none;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 ul {
     list-style: none;
@@ -56,6 +59,8 @@ img {
     flex: 1;
     overflow: hidden;
     filter: grayscale(100%);
+
+    padding: 5px;
 }
 
 .img-div {
@@ -67,4 +72,6 @@ img {
     background-size: cover;
     object-fit: cover;
     background-position: center;
+
+    border-radius: 1rem;
 }
