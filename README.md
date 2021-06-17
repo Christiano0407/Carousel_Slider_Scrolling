@@ -23,6 +23,39 @@ Horizontal Scrolling Carousel Parallax Slider
 - [ScrollTop](https://developer.mozilla.org/es/docs/Web/API/Element/scrollTop)
 - [Scroll](https://developer.mozilla.org/es/search?q=scroll)
 
+# Inspiration Website
+> Platform Design and Code
+- [awwwards](https://www.awwwards.com/)
+- [GSAP](https://greensock.com/gsap/)
+
+# Guide / Practice
+- [30secondsofcode](https://www.30secondsofcode.org/)
+
+# Palette Colors
+- [Adobe Color](https://color.adobe.com/es/create/color-wheel)
+- [Coolors](https://coolors.co/)
+- [ColorHTML](https://htmlcolorcodes.com/)
+- [Webgradients](https://webgradients.com/)
+- [Gradients](https://mycolor.space/gradient3)
+
+# Fonts
+- [Adobe Fonts](https://fonts.adobe.com/)
+- [Google Fonts](https://fonts.google.com/)
+> Article Animations
+- [MDN-Fonts](https://developer.mozilla.org/es/docs/Web/CSS/font)
+
+# Material Design / UI / UX
+- [Material Design](https://material.io/)
+- [Booklets](https://www.booklets.io/c/graphic-design)
+- [Notion](https://www.notion.so/)
+# NPM
+- [npm](https://www.npmjs.com/)
+# CDN
+- [cdnjs](https://cdnjs.com/)
+- [tinify_CDN](https://tinify.com/cdn)
+# Gsap Animation
+- [Gsap](https://greensock.com/gsap/)
+
 # Tips UX / UI / Design System
 - [Booklets](https://www.booklets.io/c/graphic-design)
 - [Material Design](https://material.io/)
@@ -31,6 +64,29 @@ Horizontal Scrolling Carousel Parallax Slider
 - [MyDevice](https://www.mydevice.io/#compare-devices)
 - [ViewportSize](https://viewportsizes.com/)
 - [ScreenSize](https://screensiz.es/)
+- [Mediaqueri](https://mediaqueri.es/)
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb)
+- [Bootstrap-Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+
+# Images
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/)
+- [Envato](https://envato.com/)
+> Width of the images
+- [TinyPNG](https://tinypng.com/)
+> Article Images
+- [evilmartians-images](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)
+# Icons
+- [fontawesome](https://fontawesome.com/)
+
+# CSS-Components
+- [Css-Components](https://onsen.io/v2/api/css.html#switch-category)
+
+# Markdown
+- [markdown](https://markdown.es/)
+- [editor.md](https://pandao.github.io/editor.md/index.html)
+
+
 # MIT License 
 
 > License
