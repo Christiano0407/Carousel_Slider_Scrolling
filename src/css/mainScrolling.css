@@ -58,7 +58,7 @@ img {
     position: relative;
     flex: 1;
     overflow: hidden;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 
     padding: 5px;
 }
@@ -83,5 +83,6 @@ img {
 
 .img-div:hover {
     transform: scale(1.5);
-    transition: 1s ease-in-out;
+    transition: transform  1s ease-in-out;
+    filter: grayscale(100%);
 }
