@@ -61,7 +61,7 @@ function scrollUpdate() {
 
 }
 
-window.addEventListener(`resize`, onload); 
+window.addEventListener(`resize`, onLoad); 
 
 function onLoad() {
     calculateDimensions(); 
