@@ -85,6 +85,7 @@ Horizontal Scrolling Carousel Parallax Slider
 # Markdown
 - [markdown](https://markdown.es/)
 - [editor.md](https://pandao.github.io/editor.md/index.html)
+- [readme.so](https://readme.so/es)
 
 
 # MIT License 
