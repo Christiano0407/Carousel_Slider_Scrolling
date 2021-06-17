@@ -63,6 +63,11 @@ img {
     padding: 5px;
 }
 
+/* .slider-item:hover { */
+/*     transform: scale(1); */
+/*     transition: 1s ease-in; */
+/* } */
+
 .img-div {
     position: relative;
     left: 1%;
@@ -74,4 +79,9 @@ img {
     background-position: center;
 
     border-radius: 1rem;
+}
+
+.img-div:hover {
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
 }
