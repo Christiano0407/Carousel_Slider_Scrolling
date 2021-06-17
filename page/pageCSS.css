@@ -40,7 +40,9 @@ section {
 }
 .container {
     scroll-snap-type: y mandatory;
+  /*  scroll-snap-type: y proximity; */
     overflow-y: scroll;
+    height: 100vh;
 }
 .one {
     background-image: url(../src/assets/image/6.jpg);
@@ -56,6 +58,7 @@ section {
    background-repeat: no-repeat;
    background-size: cover;
    object-fit: cover;
+   /* height: 50vh; */
 }
 .three {
     background-color: springgreen;
