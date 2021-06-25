@@ -19,6 +19,7 @@ function smoothScroll()
    target = window.scrollY; 
    current = up(current, target, ease); 
    scrollAble.style.transform =`translate3d(0, ${-current}px, 0)`; 
+   window.requestAnimationFrame(smoothScroll);
 }
 
 init(); 
