@@ -23,7 +23,7 @@ function smoothScroll()
    sticky(); 
    window.requestAnimationFrame(smoothScroll);
 }
-
+// Manipulación para el texto quede fijo
 sticky = () => {
    let offset = window.innerHeight * 2; 
 
@@ -31,9 +31,13 @@ sticky = () => {
    {
       stickyProject.style.transform = `translate3d(0, 0, 0)`; 
    }
-   if(current >= offset)
+   if(current >= offset && current <= offset * 2)
    {
        stickyProject.style.transform = `translate3d(0, ${current - offset}px, 0)`; 
+   }
+   if(current >= offset * 2)
+   {
+       stickyProject.style.transform = `translate3d(0, ${offset}px, 0)`; 
    }
 }
 

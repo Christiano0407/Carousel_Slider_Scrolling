@@ -38,6 +38,10 @@ Horizontal Scrolling Carousel Parallax Slider
 - [requestAnimationFrame](https://developer.mozilla.org/es/docs/Web/API/Window/requestAnimationFrame)
 - El método window.requestAnimationFrame informa al navegador que quieres realizar una animación y solicita que el navegador programe el repintado de la ventana para el próximo ciclo de animación. El método acepta como argumento una función a la que llamar antes de efectuar el repintado.
 
+> Image HTML 
+- [picture-img](https://developer.mozilla.org/es/docs/Web/HTML/Element/picture)
+- [img-tag](https://www.w3schools.com/tags/tag_img.asp)
+- [source-img](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
 # Inspiration Website
 > Platform Design and Code
 - [awwwards](https://www.awwwards.com/)
