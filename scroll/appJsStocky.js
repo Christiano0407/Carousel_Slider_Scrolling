@@ -2,6 +2,9 @@
 const scrollAble = document.querySelector(`.scrollBar`); 
 const stickyProject = document.querySelector(`.project`); 
 
+// Image:
+let images = [...document.querySelectorAll(`img`)]; 
+
 let current = 0;
 let target = 0; 
 const ease = 0.1; 
@@ -21,6 +24,7 @@ function smoothScroll()
    current = up(current, target, ease); 
    scrollAble.style.transform =`translate3d(0, ${-current}px, 0)`; 
    sticky(); 
+   animateImage(); 
    window.requestAnimationFrame(smoothScroll);
 }
 // Manipulación para el texto quede fijo
@@ -39,6 +43,17 @@ sticky = () => {
    {
        stickyProject.style.transform = `translate3d(0, ${offset}px, 0)`; 
    }
+}
+
+animateImage = () => {
+    for(let i = 0; i < images.length; i++) {
+        let { top } = images[i].getBoundingClientRect(); 
+        if(i % 2 == 0) {
+            images[i].style.transform = `rotate(${top * 0.03}deg)`; 
+        }else {
+            images[i].style.transform = `rotate(-${top * 0.03}deg)`; 
+        }
+    }
 }
 
 init(); 
